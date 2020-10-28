@@ -1,0 +1,28 @@
+#contact-form {
+    border: 1px ridge black;
+    width: 90%;
+    margin: 5%;
+    padding: 4%;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+}
+
+#contact-form input, #contact-form textarea, #contact-form label {
+    width: 94%;
+    box-sizing: border-box;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 0.5em;
+}
+
+#contact-form > div {
+    width: 100%;
+}
+
+#contact-form div:last-child {
+    text-align: center;
+}
+
+#contact-form input[type="submit"] {
+    width: 8em;
+}
